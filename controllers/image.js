@@ -10,5 +10,9 @@
        },
        comment: function(req, res) {
            res.send('The image:comment POST controller');
+       },
+       group : function (req,res){
+        res.send('The group is created');
        }
+
 };
